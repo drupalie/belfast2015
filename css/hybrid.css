@@ -264,11 +264,24 @@ a.border-button-black, .border-button-black {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/header.jpg) no-repeat center center fixed;
+    background: #48AFE1 url(../img/drupal-city-hall.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.header img {
+    max-width: 100%;
+    margin-bottom: 1em;
+    opacity: 1;
+}
+
+.header .btn {
+    background: #48AFE1;
+    text-decoration: none;
+    font-size: 1.1667em;
+    text-transform: uppercase;
 }
 
 #testimonials,
@@ -718,4 +731,44 @@ footer,
     .header, .callout, #contact2 {
         background-attachment: scroll;
     }
+}
+
+/* Belfast Changes */
+.about img {
+    max-width: 100%;
+}
+
+.about-grid p {
+    margin-bottom: 30px;
+}
+
+.about-grid .fa {
+    color: #48AFE1;
+    padding-top: 0;
+}
+
+.about-grid h3 {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.about-grid h3:first-child {
+    margin-top: 0;
+}
+
+.sponsors {
+    margin-bottom: 3em;
+}
+
+.sponsors .intro {
+    margin-bottom: 2em;
+}
+
+.sponsors img {
+    max-width: 100%;
+}
+
+.sponsors h3.heading {
+    margin-top: 1em;
+    font-size: 2em;
 }
